@@ -1,0 +1,66 @@
+.header{
+    background: url('img/Снимок\ экрана\ 2022-02-11\ в\ 10.42\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    .navv{
+        padding: 20px 50px;
+        .row{
+            .hrr{
+                ul{
+                    display: flex;
+                    gap: 30px;
+                    // border: 3px solid white;
+                    li{
+                        list-style: none;
+                        font-size: 15px;
+                        a{
+                        text-decoration: none;
+                        color: white;
+                        padding-bottom: 5px;
+                        transition: all linear 0.1s;
+                        &:hover{
+                            // text-decoration: underline;
+                            border-bottom: 3px solid #00DBDE;                            ;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .body{
+        padding: 150px 0;
+
+        .bodyy{
+            display: flex;
+            color: white;
+            width: 450px;
+            .kall{
+                button{
+                    background: linear-gradient(98.73deg, #7A42F4 0%, #4642F4 100%),
+linear-gradient(109.56deg, rgba(255, 255, 255, 0.56) 3.9%, rgba(255, 255, 255, 0) 63.11%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+                    padding: 10px 20px;
+                    border: none;
+                    color: white;
+                    font-weight: bold;
+                    margin-top: 70px;
+                }
+            }
+        }
+        .kal{
+            height: 300px;
+            width: 10px;
+            margin-right: 35px;
+            background: #7F5CFF;
+            box-shadow: #7F5CFF 5px 10px 40px 15px;
+        }
+    }
+}
+.container-fluid{
+    .btnn{
+        background: #7F5CFF;
+    }
+}
